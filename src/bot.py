@@ -5,7 +5,7 @@ import configparser
 import bot_utilities
 from blackjack import Blackjack
 
-config_file = 'bot_cfg.ini'
+config_file = '.secrets.ini'
 record_file = 'player_records.json'
 
 
