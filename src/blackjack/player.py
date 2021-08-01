@@ -1,5 +1,6 @@
+import typing
 import pydealer
-from global_vars import tracked_players
+from .global_vars import tracked_players
 
 class Player(object):
     def __init__(self, id=''):
@@ -14,7 +15,7 @@ class Player(object):
         self.request_leave = False
         self.playing = False
 
-    def calculate_value(self):
+    def calculate_value(self) -> int:
         """Calculates value of player's hand"""
         if not self.hand:
             return 0

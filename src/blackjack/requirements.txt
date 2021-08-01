@@ -1,0 +1,6 @@
+wheel
+async-timeout
+discord.py
+dnspython
+pydealer
+PyNaCl

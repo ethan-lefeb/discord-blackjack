@@ -1,5 +1,0 @@
-wheel
-discord.py
-dnspython
-PyNaCl
-async-timeout
